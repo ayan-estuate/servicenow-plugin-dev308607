@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_2185757_ai_tic_0.http_timeout_ms</name>
+        <read_roles/>
+        <suffix>http_timeout_ms</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 09:33:20</sys_created_on>
+        <sys_id>e66c525393a28310c28fb4897bba108e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_2185757_ai_tic_0.http_timeout_ms</sys_name>
+        <sys_package display_value="AI Ticket Deflection" source="x_2185757_ai_tic_0">cf1ad21f93628310c28fb4897bba10d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Ticket Deflection">cf1ad21f93628310c28fb4897bba10d8</sys_scope>
+        <sys_update_name>sys_properties_e66c525393a28310c28fb4897bba108e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 09:15:01</sys_updated_on>
+        <type>integer</type>
+        <value>25000</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e66c525393a28310c28fb4897bba108e"/>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ffdda1793a28310c28fb4897bba1098" label="Deflection Log" max_length="40" name="x_2185757_ai_tic_0_deflection_log" type="collection">
+        <element label="Confidence" max_length="40" name="u_confidence" type="string"/>
+        <element label="Input Text" max_length="4000" name="u_input_text" type="string"/>
+        <element label="Suggestion Id" max_length="100" name="u_suggestion_id" type="string"/>
+        <element label="Action Taken" max_length="40" name="u_action_taken" type="string"/>
+        <element label="Correlation Id" max_length="100" name="u_correlation_id" type="string"/>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>
